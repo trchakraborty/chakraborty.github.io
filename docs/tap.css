@@ -1,0 +1,87 @@
+<style type="text/css">
+a { font-family: arial, helvetica, sans-serif; font-size: 16pt}
+a.large { font-family: arial, helvetica, sans-serif; font-size: 16pt; text-decoration:none; color: #0078BC}
+a:link {
+    color: #0078BC ; text-decoration: none; border-bottom: 1px dotted;
+}
+/* visited link */
+a:visited {
+    color: #0078BC ; text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+    color: #0078BC ; text-decoration: none;
+}
+/* selected link */
+a:active {
+    color: #0078BC ; text-decoration: none;
+}
+
+
+body { font-family: Times, sans-serif; font-size: 13pt; }
+.shadow {
+	-moz-box-shadow: 0px 2px 8px #aaa;
+	-webkit-box-shadow: 0px 2px 8px #aaa;
+	box-shadow: 0px 2px 8px #aaa;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#aaaaaa')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#aaaaaa');
+}
+
+div.h4 { font-size: 12pt; font-weight: normal; }
+h1.center { font-size: 16pt; font-weight: bold; text-align: center; }
+h1.left { font-size: 14pt; font-weight: normal; text-align: left; font-style: oblique; color: #0078BC}
+h1.left_bold { font-size: 14pt; font-weight: bold; text-align: left; }
+h1.colored {font-size: 14pt; font-weight: bold; color: #0078BC}
+h2 { font-size: 16pt; font-weight: bold; color: #0078BC}
+
+h3 { font-family: "Times New Roman", Times, serif; font-size: 14pt; font-weight: normal; color: #0078BC  }
+h4 { font-size: 12pt; font-weight: normal; }
+p.slides { margin-top: -1%; }
+p.colored{color:#696969; font-family: arial; font-size: 12pt}
+table.slides { margin-top: -1%; width: 50%; }
+li { padding: 2pt 0pt; }
+
+h4.stylish {font-family: "Times New Roman", Times, serif; font-size: 12pt; font-weight: normal; color:#696969}
+
+#heading-bg {
+    border-radius: 8px;
+    background: #D0C3B7;
+    width: 60%;
+    height: 40px; 
+	position: relative;
+	top: 50%;
+	transform: translateY(-20%);
+}	
+
+
+#page {
+ border-radius: 8px;
+ background-color: #FAF9F8;
+ margin-left: auto;
+ margin-right: auto;
+ width: 880px;
+ text-align: left;
+ border-left: 1px solid #d9d9d9;
+ border-right: 1px solid #d9d9d9;
+}
+
+#inner-page{
+	 background-color: #E8E1DB;
+	 padding: 6px 26px 26px 26px;
+}
+
+#main { 
+ padding-left: 10px; padding-right: 10px; 
+ border-bottom: 1px solid #d9d9d9;
+ margin-top: 8px;
+ padding-top: 15px;
+ padding-bottom: 8px;
+}
+
+hr {isplay: block; height: 1px;
+    border: 0; border-top: 1px solid #d9d9d9;
+    margin: 1em 0; padding: 0;}
+
+</style>
